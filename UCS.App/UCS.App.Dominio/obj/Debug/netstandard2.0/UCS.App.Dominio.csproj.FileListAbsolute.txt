@@ -1,0 +1,9 @@
+C:\UCSalones\UCS.App\UCS.App.Dominio\obj\Debug\netstandard2.0\UCS.App.Dominio.csprojAssemblyReference.cache
+C:\UCSalones\UCS.App\UCS.App.Dominio\obj\Debug\netstandard2.0\UCS.App.Dominio.AssemblyInfoInputs.cache
+C:\UCSalones\UCS.App\UCS.App.Dominio\obj\Debug\netstandard2.0\UCS.App.Dominio.AssemblyInfo.cs
+C:\UCSalones\UCS.App\UCS.App.Dominio\obj\Debug\netstandard2.0\UCS.App.Dominio.csproj.CoreCompileInputs.cache
+C:\UCSalones\UCS.App\UCS.App.Dominio\bin\Debug\netstandard2.0\UCS.App.Dominio.deps.json
+C:\UCSalones\UCS.App\UCS.App.Dominio\bin\Debug\netstandard2.0\UCS.App.Dominio.dll
+C:\UCSalones\UCS.App\UCS.App.Dominio\bin\Debug\netstandard2.0\UCS.App.Dominio.pdb
+C:\UCSalones\UCS.App\UCS.App.Dominio\obj\Debug\netstandard2.0\UCS.App.Dominio.dll
+C:\UCSalones\UCS.App\UCS.App.Dominio\obj\Debug\netstandard2.0\UCS.App.Dominio.pdb
