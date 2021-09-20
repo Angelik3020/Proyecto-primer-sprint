@@ -14,7 +14,7 @@ namespace UCS.App.Dominio
 
         public int edad{get;set;}
 
-        public EstadoCovid estadocovid{get;set;}
+        public EstadoCovid EstadoCovid{get;set;}
 
     }
 }

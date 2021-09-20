@@ -1,3 +1,4 @@
+using System.Runtime.InteropServices;
 using UCS.App.Dominio;
 using System.Collections.Generic;
 using System.Linq;
@@ -31,6 +32,7 @@ namespace UCS.App.Persistencia
                 directivoEncontrado.apellido = directivo.apellido;
                 directivoEncontrado.identificacion = directivo.identificacion;
                 directivoEncontrado.edad =directivo.edad;
+                directivoEncontrado.EstadoCovid = directivo.EstadoCovid;
                 directivoEncontrado.unidadDesempeña = directivo.unidadDesempeña;
 
                 _appContext.SaveChanges();

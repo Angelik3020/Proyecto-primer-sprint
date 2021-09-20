@@ -1,4 +1,5 @@
-﻿using System;
+﻿using System.Runtime.InteropServices;
+using System;
 using UCS.App.Dominio;
 using UCS.App.Persistencia;
 using System.Collections.Generic;
@@ -25,13 +26,14 @@ namespace UCS.App.Consola
                 apellido = "Pacho",
                 identificacion = 1134,
                 edad = 29,
+                EstadoCovid = EstadoCovid.covidNegativo,
                 unidadDesempeña = "Ingenierias"
             };
 
             Console.WriteLine(directivo.nombre+"\n" + directivo.apellido+"\n Se desempeña en = "+directivo.unidadDesempeña);
             Directivo directivoretornado = _repoDirectivo.AddDirectivo(directivo);
             if (directivoretornado!=null)
-            Console.WriteLine("Se realizo un nuevo registro en la base de datos:>>"+directivoretornado.id);
+            Console.WriteLine("Se realizo un nuevo registro en la base de datos:>>"+directivoretornado.id+directivoretornado.EstadoCovid);
         }
             
         //BuscarDirectivo
@@ -57,6 +59,7 @@ namespace UCS.App.Consola
                apellido = "Ramirez",
                identificacion = 110,
                edad = 36,
+               EstadoCovid = EstadoCovid.covidPositivo,
                unidadDesempeña = "Derecho"
                
             };
