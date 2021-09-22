@@ -12,7 +12,7 @@ namespace UCS.App.Dominio
 
         public string sede{get;set;}
 
-        public Sintomas sintomas{get;set;}
+        public Sintomas Sintomas{get;set;}
 
         public Boolean pruebacovid{get;set;}
 
